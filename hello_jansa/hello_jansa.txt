@@ -1,4 +1,4 @@
-Hallo Jannick,
+Hallo Jannik,
 
 Du hast das Git Repository erfolgreich runtergeladen.
 
@@ -14,3 +14,5 @@ Bitte folgendes ausprobieren:
 An gleicher DAtei im Repo1 Änderungen durchführen und auch im Repo2.
 Beides lokal committen und dann pushen. 
 Es sollte einen Konflikt geben.
+
+=D
