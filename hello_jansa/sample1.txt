@@ -1,5 +1,7 @@
 Eine Zeile in sample1
 
+1.einhalb Zeile
+
 zweite Zeile
 
 das ist die dritte
