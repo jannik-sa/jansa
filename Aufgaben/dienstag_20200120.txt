@@ -1,0 +1,8 @@
+Hallo Jannik,
+
+hier noch eine Aufgabe für heute (Dienstag).
+
+1. Bitte den Scrum Guide auf deutsch runterladen (ca. 22 Seiten).
+2. Ein Unterverzeichnis scrum anlegen.
+3. den scrum guide dort ablegen, committen und pushen
+4. noch eine Textdatei mit einem Gruss an mich anlegen, committen, pushen.
