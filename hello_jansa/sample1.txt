@@ -3,3 +3,5 @@ Eine Zeile in sample1
 zweite Zeile
 
 das ist die dritte
+
+vierte Zeile
