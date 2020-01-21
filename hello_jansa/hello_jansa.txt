@@ -1,0 +1,16 @@
+Hallo Jannick,
+
+Du hast das Git Repository erfolgreich runtergeladen.
+
+Bitte Tortoise Git installieren
+
+Bitte folgendes ausprobieren:
+- git Repository an 2ten Ort bei Dir klonen
+- Dateien ändern 
+-- lokal die Änderungen committen
+-- die Änderungen remote pushen
+- im 2ten Repository ein pull durchführen
+
+An gleicher DAtei im Repo1 Änderungen durchführen und auch im Repo2.
+Beides lokal committen und dann pushen. 
+Es sollte einen Konflikt geben.
