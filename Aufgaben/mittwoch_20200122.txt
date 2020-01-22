@@ -1,0 +1,17 @@
+1. Den Scrum Guide *.odx löschen
+2. Scrum Guide pdf stattdessen einchecken
+
+3. Branch erstellen "my_1st_branch", auf den Branch wechseln
+4. python Unterverzeichnis anlegen und eine python Datei dort ablegen
+5. python Unterverzeichnis zu git hinzufügen
+6. committen
+
+7. Branch wieder wechseln auf master
+--> ist das Python Unterverzeichnis noch da?
+
+8. Branch wechseln auf my_1st_branch
+--> Unterverzeichnis da?
+
+9. Branch wechseln auf master
+10. Merge von my_1st_branch in master
+11. push auf zentrales Repository
