@@ -1,6 +1,6 @@
 
 
-def fce(x):
+def fac(x):
     y=x-1
     s=x*y
     x=y
