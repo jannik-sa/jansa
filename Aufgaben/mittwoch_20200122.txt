@@ -1,3 +1,8 @@
+Tool Everything von voidtools runterladen und installieren (auf Janniks notebook).
+Everything aufrufen und nach "*_2020*.txt" suchen.
+
+Tool notepad++ runterladen und installieren auf Janniks notebook.
+
 1. Den Scrum Guide *.odx löschen
 2. Scrum Guide pdf stattdessen einchecken
 
@@ -15,3 +20,6 @@
 9. Branch wechseln auf master
 10. Merge von my_1st_branch in master
 11. push auf zentrales Repository
+
+Mit Git experimentieren/ausprobieren
+
