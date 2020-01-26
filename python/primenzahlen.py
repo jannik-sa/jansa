@@ -1,7 +1,4 @@
-x=2
 
-if int(x)==x:
-    print("W")
 x=2
 y=3
 for i in range(1000):
@@ -13,7 +10,7 @@ for i in range(1000):
     elif int(n)!=n:
         x=x+1
 
-    elif x==y:
+    if x==y:
         print(y)
 
     
