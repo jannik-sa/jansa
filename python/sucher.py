@@ -1,54 +1,50 @@
-
+'''search all ids from opt-text-APS1.txt'''
 import sys
 import re
 
-def grep_ids(filename):
-    result = {}
-    for line in open(filename,"r"):
-        id = parse_line(line) 
-        if id:
-            result.setdefault(id, 0)
-            result[id] += 1
-            # result[id] = result[id] + 1
-            """
-            
-            if id in result:
-                result[ide] += 1
-            else:   
-                result[ide] = 1
-            """
-    return result
 
+
+def grep_ids(filename):
+    '''make the ids in a list'''
+    result1 = set()
+    result2 = set()
+    
+    for line in open(filename,"r"):
+        id = parse_line2(line) 
+        if id:
+            try:
+                num = int(id)
+                result1.add(num)
+            except:
+                result2.add(id)
+
+    return result1, result2
+    
 def parse_line2(line):
+    '''search ids'''
     hit = re.search(r"gen des Teils\s+(\S+)", line)
     if hit:
         return hit.group(1)
     return None
 
-def parse_line(line):
-    
-    result = None
-    if line.find("des Teils ") != -1:
-        y=line
-        x = line.find("des Teils ")
-        result = (y[x+10:line.find(" kann kein")])
-    return result
-   
-                  
-filename = sys.argv[1]
-print('filename=', filename)
 
-ids = grep_ids(filename)
+def printi()
+    '''print ids'''
+    filename = sys.argv[1]
+    print('filename=', filename)
 
+    ids, ids2 = grep_ids(filename)
 
-#for i in range(len(ids)):
+    print()
+    print("Ids aus Zahlen:")
+    print()
 
- #   print(ids(i))
-  #  i += 1
+    for id in sorted(ids):
+        print(id)
+    print()
+    print("Ids nicht nur mit Zahlen:")
+    print()
+    for id in sorted(ids2):
+        print(id)
 
-
-for id in sorted(ids):
-    if ids[id]>1:
-        print(ids[id],"",id )
-    else:
-        print("  ",id)
+printi()
